@@ -1,0 +1,21 @@
+{
+    "name": "OakCMS/yii2-seo-manager",
+    "description": "Yii2 seo module manager",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","seo","seo manager","oakcms"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "scriptua",
+            "email": "script@email.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "oakcms\\seomanager\\": ""
+        }
+    }
+}
